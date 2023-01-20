@@ -1,0 +1,76 @@
+{
+    "testataRichiesta": {
+        "idComune": 1000000,
+        "idOperazioneComune": "APP2022032210000",
+        "dataOraRichiesta": "1",
+        "nomeApplicativo": "Applicativo Demografico",
+        "versioneApplicativo": "1.0.0",
+        "fornitoreApplicativo": "Nome Fornitore"
+    },
+    "evento": {
+        "idTipoEvento": "1",
+        "idtipocontenuto": "1",
+        "idUsecase": "2101",
+        "stato": "CONFERMATO",
+        "dataformazione": "2025-01-23",
+        "ora": "1",
+        "minuto": "11",
+        "numeroatto": "9425",
+        "tipoDichiarante": "F",
+        "ausilioInterprete": "true",
+        "datiDichiarante": {
+            "comprensione": "0"
+        },
+        "intestatari": [
+            {
+                "codiceFiscale": "CGNNOU22D49H501T",
+                "cognome": "CognomeNato",
+                "nome": "UNO",
+                "sesso": "F",
+                "descrizioneSesso": "femminile",
+                "dataNascita": "2020-01-01",
+                "nomeComuneNascita": "ROMA",
+                "siglaProvinciaNascita": "RM",
+                "nomeStatoNascita": "ITALIA",
+                "nomeComuneResidenza": "AFFILE",
+                "siglaProvinciaResidenza": "RM",
+                "nomeStatoResidenza": "ITALIA",
+                "indirizzoResidenza": "Via Tal dei Tali 11",
+                "descrizionestatocivile": "1",
+                "tipoImpedimento": "",
+                "genere": "a",
+                "nazionalita": "ITALIANA",
+                "note": ""
+            }
+        ],
+        "dichiarante": {
+            "cognome": "Rossi",
+            "nome": "Mario",
+            "sesso": "M",
+            "dataNascita": "1976-06-23",
+            "nomeStatoNascita": "ITALIA",
+            "siglaProvinciaNascita": "RM",
+            "nomeComuneNascita": "Roma",
+            "nazionalita": "Italiana",
+            "nomeStatoResidenza": "ITALIA",
+            "siglaProvinciaResidenza": "RM",
+            "nomeComuneResidenza": "Roma"
+        },
+        "datiDiMorte": {
+            "dataMorte": "2022-10-24",
+            "luogoMorte": "Casa"
+        },
+        "interprete": {
+            "cognome": "Interprete",
+            "nome": "Test",
+            "dataNascita": "1965-07-31",
+            "nomeComuneNascita": "Roma",
+            "siglaProvinciaNascita": "Rm",
+            "nomeStatoNascita": "ITALIA",
+            "nomeComuneResidenza": "Caprarola",
+            "siglaProvinciaResidenza": "Vt",
+            "nomeStatoResidenza": "ITALIA",
+            "nazionalita": "ITALIANA"
+        }
+    }
+}

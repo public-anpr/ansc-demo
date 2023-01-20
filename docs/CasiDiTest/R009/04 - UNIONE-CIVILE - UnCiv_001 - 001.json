@@ -1,0 +1,143 @@
+{
+    "testataRichiesta": {
+        "idComune": 1000000,
+        "idOperazioneComune": "APP2022032210000",
+        "dataOraRichiesta": "1",
+        "nomeApplicativo": "Applicativo Demografico",
+        "versioneApplicativo": "1.0.0",
+        "fornitoreApplicativo": "Nome Fornitore"
+    },
+    "evento": {
+        "idTipoEvento": "1",
+        "idtipocontenuto": "1",
+        "idUsecase": "411111",
+        "stato": "CONFERMATO",
+        "dataformazione": "2025-01-23",
+        "ora": "1",
+        "minuto": "11",
+        "numeroatto": "9425",
+        "tipoDichiarante": "F",
+        "ausilioInterprete": "false",
+        "datiDichiarante": {
+            "comprensione": "0"
+        },
+        "intestatari": [
+            {
+                "id": "7203",
+                "codiceFiscale": "PNUFDN87C13F103O",
+                "cognome": "CognomeNato",
+                "nome": "UNO",
+                "sesso": "m",
+                "descrizioneSesso": "maschile",
+                "dataNascita": "2020-01-01",
+                "nomeComuneNascita": "ROMA",
+                "siglaProvinciaNascita": "RM",
+                "nomeStatoNascita": "ITALIA",
+                "nomeComuneResidenza": "AFFILE",
+                "siglaProvinciaResidenza": "RM",
+                "nomeStatoResidenza": "ITALIA",
+                "indirizzoResidenza": "Via Tal dei Tali 11",
+                "descrizionestatocivile": "Coniugato/a",
+                "tipoImpedimento": "",
+                "genere": "a",
+                "nazionalita": "ITALIANA",
+                "note": "",
+                "documentoRiconoscimento": {
+                    "numeroDocumento": "AB32652AO",
+                    "tipologiaDocumento": "Carta d'identità",
+                    "dataScadenza": "2020-01-08",
+                    "rilasciatoDa": "Comune di Cesena",
+                    "dataRilascio": "2017-01-08"
+                },
+                "recapito": {
+                    "email": "tizio@caio.com",
+                    "pec": "tizio@caio-pec.com"
+                }
+            },
+            {
+                "id": "7204",
+                "codiceFiscale": "PNUFDN87C13F103O",
+                "cognome": "DUECOGNOME",
+                "nome": "DUE",
+                "sesso": "f",
+                "descrizioneSesso": "femminile",
+                "dataNascita": "2020-01-01",
+                "nomeComuneNascita": "ROMA",
+                "siglaProvinciaNascita": "RM",
+                "nomeStatoNascita": "ITALIA",
+                "nomeComuneResidenza": "AFFILE",
+                "siglaProvinciaResidenza": "RM",
+                "nomeStatoResidenza": "ITALIA",
+                "indirizzoResidenza": "Via Tal dei Tali 11",
+                "descrizionestatocivile": "Coniugato/a",
+                "tipoImpedimento": "",
+                "genere": "a",
+                "nazionalita": "ITALIANA",
+                "note": "",
+                "documentoRiconoscimento": {
+                    "numeroDocumento": "AB32652AO",
+                    "tipologiaDocumento": "Carta d'identità",
+                    "dataScadenza": "2020-01-08",
+                    "rilasciatoDa": "Comune di Cesena",
+                    "dataRilascio": "2017-01-08"
+                },
+                "recapito": {
+                    "email": "tizio@caio.com",
+                    "pec": "tizio@caio-pec.com"
+                }
+            }
+        ],
+        "datiEventoUnioneCivile": {
+            "comprensioneConiuge1": "0",
+            "comprensioneConiuge2": "0",
+            "luogoCelebrazione": {
+                "siglaProvincia": "Rm",
+                "nomeComune": "Roma",
+                "nomeStato": "Italia"
+            },
+            "dataEvento": "2022-10-24",
+            "oraEvento": "10",
+            "minutoEvento": "15",
+            "officiante": "1",
+            "siglaProvinciaCertificatoCostituzione": "Rm",
+            "comuneCertificatoCostituzione": "Roma",
+            "dataCertificatoCostituzione": "2022-08-10",
+            "numeroTestimoni": "2",
+            "testimone1": {
+                "cognome": "Costello",
+                "nome": "Elvis",
+                "sesso": "M",
+                "dataNascita": "1952-04-12",
+                "nomeStatoNascita": "ITALIA",
+                "siglaProvinciaNascita": "Rm",
+                "nomeComuneNascita": "Roma",
+                "nazionalita": "Italiana",
+                "nomeStatoResidenza": "ITALIA",
+                "siglaProvinciaResidenza": "Rm",
+                "nomeComuneResidenza": "Roma",
+                "indirizzoResidenza": "Via Tal de' Tali 12"
+            },
+            "testimone2": {
+                "cognome": "Costello",
+                "nome": "Francesca",
+                "sesso": "F",
+                "dataNascita": "1956-06-22",
+                "nomeStatoNascita": "ITALIA",
+                "siglaProvinciaNascita": "Rm",
+                "nomeComuneNascita": "Roma",
+                "nazionalita": "Italiana",
+                "nomeStatoResidenza": "ITALIA",
+                "siglaProvinciaResidenza": "Rm",
+                "nomeComuneResidenza": "Roma",
+                "indirizzoResidenza": "Via Tal de' Tali 12"
+            },
+            "rigettoOpposizione": "false",
+            "estintaOpposizione": "false",
+            "difettoEta": "false",
+            "impedimentoParentela": "false",
+            "regimePatrimoniale" : {
+                "tipo" : "1"
+            }
+        }
+    }
+}

@@ -1,0 +1,99 @@
+{
+    "testataRichiesta": {
+    "idComune": 1000000,
+    "idOperazioneComune": "APP2022032210000",
+    "dataOraRichiesta": "1",
+    "nomeApplicativo": "Applicativo Demografico",
+    "versioneApplicativo": "1.0.0",
+    "fornitoreApplicativo": "Nome Fornitore"
+    },
+    "evento": {        
+        "idTipoEvento": "1",
+        "idtipocontenuto": "1",
+        "idUsecase": "52141",
+        "stato": "CONFERMATO",
+        "dataformazione": "2025-01-23",
+        "ora": "1",
+        "minuto": "11",
+        "numeroatto": "9425",
+        "tipoDichiarante": "F",
+        "intestatari": [
+            {     
+                "codiceFiscale": "PNUFDN87C13F103O",
+                "cognome": "CognomeNato",
+                "nome": "UNO",
+                "sesso": "F",
+                "descrizioneSesso": "femminile",
+                "dataNascita": "2020-01-01",
+                "nomeComuneNascita": "ROMA",
+                "siglaProvinciaNascita": "RM",
+                "nomeStatoNascita": "ITALIA",
+                "nomeComuneResidenza": "AFFILE",
+                "siglaProvinciaResidenza": "RM",
+                "nomeStatoResidenza": "ITALIA",
+                "indirizzoResidenza": "Via Tal dei Tali 11",
+                "descrizionestatocivile": "Coniugato/a",
+                "tipoImpedimento": "",
+                "genere": "a",
+                "nazionalita": "ITALIANA",
+                "note": ""
+            }
+        ],
+        "datiDiNascita": {
+            "luogoFiliazione": "Ospedale",
+            "indirizzoEvento": "Via Tal dei Tali 11",
+            "sceltaCognome": "",
+            "oraNascita": "03",
+            "minutoNascita": "23",
+            "precisazioneCognome": "Precisazione attribuzione cognome ex art.24 218/1995",
+            "natoMorto": "no",
+            "natoVivoMaDeceduto": "no",
+            "partoGemellare": "no"
+        },
+        "madre": {
+            "cognome": "PROVA",
+            "nome": "UNO",
+            "datanascita": "2020-01-01",
+            "nomeComuneNascita": "ROMA",
+            "siglaProvinciaNascita": "RM",
+            "nomeStatoNascita": "ITALIA",
+            "nomeComuneResidenza": "AFFILE",
+            "siglaProvinciaResidenza": "RM",
+            "nomeStatoResidenza": "ITALIA",
+            "nazionalita": "ITALIANA"
+        },
+        "padre": {
+            "cognome": "PROVO",
+            "nome": "UNO",
+            "datanascita": "2020-01-01",
+            "nomeComuneNascita": "ROMA",
+            "siglaProvinciaNascita": "RM",
+            "nomeStatoNascita": "ITALIA",
+            "nomeComuneResidenza": "AFFILE",
+            "siglaProvinciaResidenza": "RM",
+            "nomeStatoResidenza": "ITALIA",
+            "nazionalita": "ITALIANA"
+        },
+        "trascrizioneCittadinanza": {
+            "tipoDichiarazione": "1",
+            "dataComunicazione": "2022-04-22",
+            "testoLibero": "Testo libero",
+            "autoritaMittente": {
+                "nomeComuneEnte": "TORCHIAROLO",
+                "tipologiaTrascrizione": "1",
+                "ruoloEnteDichiarante": "tribunale",
+                "nomeEnte": "tribunale",
+                "comuneEnte": "TORCHIAROLO",
+                "siglaProvinciaEnte": "BR",
+                "indirizzoEnte": "Via aa",
+                "dataTrascrizione": "2020-01-08",
+                "annoTrascrizione": "2020",
+                "meseTrascrizione": "01",
+                "giornoTrascrizione": "08",
+                "estremiDocumento": "A1342"
+            },
+            "dataProvvedimentoSindaco":"2020-01-01",
+            "esitoAccertamento":"1"
+        }
+    }
+}

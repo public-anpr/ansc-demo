@@ -1,0 +1,112 @@
+{
+    "testataRichiesta": {
+        "idComune": 1000000,
+        "idOperazioneComune": "APP2022032210000",
+        "dataOraRichiesta": "1",
+        "nomeApplicativo": "Applicativo Demografico",
+        "versioneApplicativo": "1.0.0",
+        "fornitoreApplicativo": "Nome Fornitore"
+    },
+    "evento": {
+        "idTipoEvento": "1",
+        "idtipocontenuto": "1",
+        "idUsecase": "11111000",
+        "stato": "CONFERMATO",
+        "dataformazione": "2020-01-23",
+        "ora": "1",
+        "minuto": "11",
+        "numeroatto": "9423",
+        "tipoDichiarante": "1",
+        "ausilioInterprete": "true",
+        "intestatari": [
+            {
+                "id": "7203",
+                "codiceFiscale": "PNUFDN87C13F103O",
+                "cognome": "CognomeNato",
+                "nome": "UNO",
+                "sesso": "F",
+                "descrizioneSesso": "femminile",
+                "dataNascita": "2020-01-01",
+                "nomeComuneNascita": "ROMA",
+                "siglaProvinciaNascita": "RM",
+                "nomeStatoNascita": "ITALIA",
+                "nomeComuneResidenza": "AFFILE",
+                "siglaProvinciaResidenza": "RM",
+                "nomeStatoResidenza": "ITALIA",
+                "indirizzoResidenza": "Via Tal dei Tali 11",
+                "descrizionestatocivile": "Coniugato/a",
+                "tipoImpedimento": "",
+                "genere": "a",
+                "nazionalita": "ITALIANA",
+                "note": ""
+            }
+        ],
+        "datiDiNascita": {
+            "annoNascita": "2022",
+            "meseNascita": "9",
+            "giornoNascita": "14",
+            "luogoFiliazione": "Ospedale",
+            "indirizzoEvento": "Via Tal dei Tali 11",
+            "oraNascita": "3",
+            "minutoNascita": "23",
+            "precisazioneCognome": "Precisazione attribuzione cognome ex art.24 218/1995",
+            "natoMorto": "no",
+            "natoVivoMaDeceduto": "no",
+            "partoGemellare": "no",
+            "nomeStatoEvento": "ITALIA",
+            "siglaProvinciaEvento": "AR",
+            "nomeComuneEvento": "AREZZO",
+            "sesso": "F"
+        },
+        "madre": {
+            "cognome": "PROVA",
+            "nome": "UNO",
+            "dataNascita": "2020-01-01",
+            "nomeComuneNascita": "ROMA",
+            "siglaProvinciaNascita": "RM",
+            "nomeStatoNascita": "ITALIA",
+            "nomeComuneResidenza": "AFFILE",
+            "siglaProvinciaResidenza": "RM",
+            "nomeStatoResidenza": "ITALIA",
+            "nazionalita": "ITALIANA",
+            "flagDichiarante": "false",
+            "flagComparente": "false",
+            "flagFirmatario": "false"
+        },
+        "padre": {
+            "cognome": "PROVO",
+            "nome": "UNO",
+            "dataNascita": "2020-01-01",
+            "nomeComuneNascita": "ROMA",
+            "siglaProvinciaNascita": "RM",
+            "nomeStatoNascita": "ITALIA",
+            "nomeComuneResidenza": "AFFILE",
+            "siglaProvinciaResidenza": "RM",
+            "nomeStatoResidenza": "ITALIA",
+            "nazionalita": "ITALIANA",
+            "flagDichiarante": "true",
+            "flagComparente": "false",
+            "flagFirmatario": "true"
+        },
+        "dichiarante": {
+            "flagDichiarante": "false",
+            "flagComparente": "false",
+            "flagFirmatario": "false"
+        },
+        "datiDichiarante": {
+            "comprensione": "0"
+        },
+        "interprete": {
+            "cognome": "Interprete",
+            "nome": "Test",
+            "dataNascita": "1965-07-31",
+            "nomeComuneNascita": "Roma",
+            "siglaProvinciaNascita": "Rm",
+            "nomeStatoNascita": "ITALIA",
+            "nomeComuneResidenza": "Caprarola",
+            "siglaProvinciaResidenza": "Vt",
+            "nomeStatoResidenza": "ITALIA",
+            "nazionalita": "ITALIANA"
+        }
+    }
+}

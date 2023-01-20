@@ -1,0 +1,93 @@
+{
+    "testataRichiesta": {
+        "idComune": 1000000,
+        "idOperazioneComune": "APP2022032210000",
+        "dataOraRichiesta": "1",
+        "nomeApplicativo": "Applicativo Demografico",
+        "versioneApplicativo": "1.0.0",
+        "fornitoreApplicativo": "Nome Fornitore"
+    },
+    "evento": {
+        "idTipoEvento": "1",
+        "idtipocontenuto": "1",
+        "idUsecase": "12211312",
+        "stato": "CONFERMATO",
+        "dataformazione": "2025-01-23",
+        "ora": "1",
+        "minuto": "11",
+        "numeroatto": "9425",
+        "tipoDichiarante": "1",
+        "ausilioInterprete": "false",
+        "sentenzaFiglioIncestuoso": "true",
+        "padre": {
+            "cognome": "Rossi",
+            "nome": "Mario",
+            "dataNascita": "1978-03-11",
+            "nomeStatoNascita": "ITALIA",
+            "siglaProvinciaNascita": "Rm",
+            "nomeComuneNascita": "Roma",
+            "nazionalita": "Italiana",
+            "nomeStatoResidenza": "ITALIA",
+            "siglaProvinciaResidenza": "Rm",
+            "nomeComuneResidenza": "Roma",
+            "flagDichiarante": "true",
+            "flagComparente": "false",
+            "flagFirmatario": "true"
+        },
+        "madre": {
+            "cognome": "Bianchi",
+            "nome": "Maria",
+            "dataNascita": "1979-05-01",
+            "nomeStatoNascita": "ITALIA",
+            "siglaProvinciaNascita": "Rm",
+            "nomeComuneNascita": "Roma",
+            "nazionalita": "Italiana",
+            "nomeStatoResidenza": "ITALIA",
+            "siglaProvinciaResidenza": "Rm",
+            "nomeComuneResidenza": "Roma",
+            "flagDichiarante": "false",
+            "flagComparente": "false",
+            "flagFirmatario": "false"
+        },
+        "riconoscimentoMadre": {
+            "avvenuto": "true",
+            "atto": {
+                "nomeComuneRegistrazione": "Roma",
+                "siglaProvinciaRegistrazione": "Rm",
+                "idtipocontenuto": "1",
+                "numeroAtto": "53262",
+                "annoAtto": "2021",
+                "dataAtto": "2021-07-22",
+                "tipologia": "Nascita",
+                "parte": "II",
+                "serie": "A",
+                "estremi": "Estremi",
+                "datiProdotti": "false"
+            }
+        },
+        "datiEventoRiconoscimento": {
+            "datiProdotti": "true"
+        },
+        "datiDichiarante": {
+            "comprensione": "0"
+        },
+        "consensoMadre": {
+            "tipoConsenso": "1"
+        },
+        "riconoscimentoPadre": {
+            "autorizzazione": {
+                "dataTrascrizione": "2022-07-12",
+                "annoTrascrizione": "2002",
+                "giornoTrascrizione": "12",
+                "meseTrascrizione": "07",
+                "tipologiaTrascrizione": "1",
+                "estremiDocumento": "estremi documento",
+                "ruoloEnteDichiarante": "ruolo",
+                "nomeComuneEnte": "Roma",
+                "siglaProvinciaEnte": "Rm",
+                "nomeEnte": "Ente",
+                "indirizzoEnte": "Via Tal dei Tali, 11"
+            }
+        }
+    }
+}

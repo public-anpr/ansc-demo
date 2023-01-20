@@ -1,0 +1,60 @@
+{
+   "testataRichiesta":{
+      "idComune":1000000,
+      "idOperazioneComune":"APP2022032210000",
+      "dataOraRichiesta":"1",
+      "nomeApplicativo":"Applicativo Demografico",
+      "versioneApplicativo":"1.0.0",
+      "fornitoreApplicativo":"Nome Fornitore"
+   },
+   "evento": {
+        "idTipoEvento" : "5",
+        "idtipocontenuto" : "1",
+        "idUsecase" : "51999",
+        "descrizioneCasoUso" : "Caso d'uso di servizio (dichiarazioni di cittadinanza)",
+        "stato" : "CONFERMATO",
+        "dataformazione" : "2022-12-19",
+        "ora" : "20",
+        "minuto" : "04",
+        "annoAtto" : "2022",
+        "numeroatto" : "12345",
+        "idComuneRegistrazione" : "1000000",
+        "nomeComuneRegistrazione" : "ANPR",
+        "idProvinciaRegistrazione" : "58",
+        "siglaProvinciaRegistrazione" : "RM",
+        "operatore" : "CRUMRA67S47Z127B",
+        "ruoloOperatore" : "2",
+        "operatoreNome" : "MARIE",
+        "operatoreCognome" : "CURIE",
+        "redattoNellaCasaComunale" : true,
+        "intestatari" : [ 
+            {
+                "id" : "41202",
+                "idsoggettoanpr" : "246397",
+                "codiceFiscale" : "CPZBRT24D06D612O",
+                "cognome" : "CAPOZZI",
+                "nome" : "ALBERTO",
+                "sesso" : "M",
+                "dataNascita" : "2016-04-06",
+                "idComuneNascita" : "67",
+                "nomeComuneNascita" : "ADRO",
+                "idProvinciaNascita" : "17",
+                "siglaProvinciaNascita" : "BS",
+                "idStatoNascita" : "90",
+                "nomeStatoNascita" : "ITALIA",
+                "idComuneResidenza" : "2063",
+                "nomeComuneResidenza" : "CASALFIUMANESE",
+                "idProvinciaResidenza" : "37",
+                "siglaProvinciaResidenza" : "BO",
+                "idStatoResidenza" : "90",
+                "nomeStatoResidenza" : "ITALIA",
+                "indirizzoResidenza" : "",
+                "idNazionalita" : "90",
+                "nazionalita" : "ITALIANA",
+                "documentoRiconoscimento" : {}
+            }
+        ],
+        "composizioneCompleta" : "Composizione per il caso d'uso di servizio."
+    }
+
+}
