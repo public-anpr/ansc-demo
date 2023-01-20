@@ -3,6 +3,6 @@
 Questo documento contiene una pianificazione di massima delle 
 	prossime funzionalità che si prevede di includere nel sistema ANSC.
 
-## [Versione 1.4.0 - 23-01-16] (issue #3)
+## [Versione 1.5.0 - 23-02-15] (issue #4)
 ### Added
-	Caso uso : Dic_Nasc_115
+	Gestione annotazioni

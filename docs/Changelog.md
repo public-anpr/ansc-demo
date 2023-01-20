@@ -16,6 +16,10 @@ Categorizzare le modifiche secondo le seguenti voci:
 
 I nuovi dati vanno sempre inseriti in testa in modo che le prime righe siano relative all'ultima modifica.
 
+## [Versione 1.4.0 - 23-01-16]
+### Added
+	Caso uso : Dic_Nasc_115
+
 ## [Versione 1.3.2 - 23-01-12] (issue #2)
 ### Fixed
 	Regole
