@@ -1,0 +1,73 @@
+name: ansc issues
+description: Segnala un problema relativo ai servizi cooperativi di ANSC
+title: "[R00x]: "
+labels: ["bug", "Da verificare"]
+#assignees:
+  #- maxill1
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Nel campo "Title" (qua sopra), usa "[codice flusso] Breve descrizione del problema". Per esempio: "[R001] problema nella verifica dell'upload di un allegato"
+
+        **Importante!**  
+
+        Si chiede di non inserire dati sensibili dei cittadini, evitando qualsiasi nome, cognome, o codice fiscale. Non ci sono problemi invece nell'inserire dei codici di richiesta o identificativi di scheda.
+        Inoltre, si chiede di non inserire nessun dato relativo a configurazioni di sicurezza, quali certificati o password.
+        Si ricorda di inserire sempre:
+        * una descrizione accurata del comportamento o dell'errore, specificando che tipo di supporto si richiede;
+        * la data del test, l'ambiente usato (pre-produzione o produzione), codici di richiesta o identificativi da usare per verificare il sistema;
+        * nome, cognome e comune di riferimento dell’operatore.
+
+  - type: dropdown
+    id: environment
+    attributes:
+      label: Ambiente
+      description: In quale ambiente si è verificato il problema?
+      options:
+        - pre-produzione
+        - produzione
+    validations:
+      required: true        
+  - type: textarea
+    id: description
+    attributes:
+      label: Descrivi il problema
+      description: Descrivi anche quale era il risultato atteso
+      placeholder: --inserisci una descrizione--
+    validations:
+      required: true  
+  - type: textarea
+    id: repro
+    attributes:
+      label: Come riprodurre il problema
+      description: Descrivi come riprodurre il problema in modo chiaro e dettagliato
+      value: |
+        1.
+        2.
+        3.
+        ...
+    validations:
+      required: false  
+  - type: input
+    id: data
+    attributes:
+      label: Data del test
+      description: Eventuale data in cui è stato effettuato il test che ha prodotto l'anomalia
+    validations:
+      required: false    
+
+  - type: input
+    id: codici
+    attributes:
+      label: Codice o identificativo
+      description: Eventuali codici di richiesta o identificativi da usare per verificare il sistema
+    validations:
+      required: false    
+
+  - type: textarea
+    id: payload
+    attributes:
+      label: Payload (json)
+      description: Eventuali dati rilevanti per riprodurre l'anomalia in formato json. Omettere dati sentibili con dei valori stub.
+      render: json
