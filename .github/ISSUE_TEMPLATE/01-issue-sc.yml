@@ -102,7 +102,7 @@ body:
     attributes:
       label: Come riprodurre il problema
       description: Descrivi come riprodurre il problema in modo chiaro e dettagliato
-      value: |
+      placeholder: |
         1.
         2.
         3.
