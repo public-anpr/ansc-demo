@@ -1,0 +1,7 @@
+{
+    "log_level": "debug",
+    "ado": {
+        "areaPath": "TP-MIN-SA-0008\\EXTRA\\anpr-web",
+        "iterationPath": "TP-MIN-SA-0008\\anpr-web\\Sprint-32"
+    }
+}
