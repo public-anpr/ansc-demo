@@ -11,5 +11,15 @@
             "deleted": "Removed",
             "active": "Active"
         }
+    },
+    "github": {
+        "filters": {
+            "labels": [
+                "bug"
+            ],
+            "title": [
+                "title filter"
+            ]
+        }
     }
 }
