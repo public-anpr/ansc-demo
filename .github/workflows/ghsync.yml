@@ -1,4 +1,4 @@
-name: Sync with Azure DevOps
+name: Issue ADO sync
 
 on:
   workflow_dispatch:
