@@ -6,14 +6,14 @@ on:
       logLevel:
         description: 'Log level'
         required: true
-        default: 'warning'
+        default: 'info'
         type: choice
         options:
         - info
         - warning
         - debug  
   schedule:
-    - cron: '*/15 * * * *'
+    - cron: '30 */1 * * *'
   issues:
     types: [opened, closed, deleted, reopened, edited, labeled, unlabeled, assigned, unassigned]
   issue_comment:
