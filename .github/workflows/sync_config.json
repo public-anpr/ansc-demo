@@ -1,7 +1,15 @@
 {
     "log_level": "debug",
     "ado": {
-        "areaPath": "TP-MIN-SA-0008\\EXTRA\\anpr-web",
-        "iterationPath": "TP-MIN-SA-0008\\anpr-web\\Sprint-32"
+        "wit": "Bug",
+        "bypassRules": false,
+        "autoCreate": true,
+        "states": {
+            "new": "New",
+            "closed": "Closed",
+            "reopened": "New",
+            "deleted": "Removed",
+            "active": "Active"
+        }
     }
 }
